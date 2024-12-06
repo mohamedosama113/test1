@@ -1,3 +1,3 @@
-variable "region" {}
-variable "vpc_name" {}
-variable "availability_zones" {}
+variable "vpc_cidr" {}
+variable "public_subnets" { type = list(string) }
+variable "private_subnets" { type = list(string) }
