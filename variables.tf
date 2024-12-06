@@ -1,5 +1,5 @@
 variable "region" {
-  default = "us-west-2"
+  default = "us-east-1"
 }
 
 variable "vpc_name" {
@@ -7,7 +7,7 @@ variable "vpc_name" {
 }
 
 variable "availability_zones" {
-  default = ["us-west-2a", "us-west-2b"]
+  default = ["us-east-1a", "us-east-2b"]
 }
 
 variable "cluster_name" {

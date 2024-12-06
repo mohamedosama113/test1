@@ -17,12 +17,3 @@ module "eks" {
   subnet_ids   = module.vpc.subnet_ids
 }
 
-resource "aws_eks_addon" "ebs_csi" {
-  cluster_name  = module.eks.eks_cluster_name
-  addon_name    = "aws-ebs-csi-driver"
-  addon_version = "v1.20.0"
-
-  tags = {
-    Environment = "production"
-  }
-}
