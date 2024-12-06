@@ -7,7 +7,7 @@ variable "vpc_name" {
 }
 
 variable "availability_zones" {
-  default = ["us-east-1a", "us-east-2b"]
+  default = ["us-east-1a", "us-east-1b"]
 }
 
 variable "cluster_name" {
