@@ -1,3 +1,6 @@
-variable "vpc_cidr" {}
-variable "public_subnets" { type = list(string) }
-variable "private_subnets" { type = list(string) }
+# VPC module variables.tf
+
+variable "cidr_block" {
+  description = "CIDR block for the VPC"
+  type        = string
+}
