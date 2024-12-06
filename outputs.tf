@@ -10,6 +10,6 @@ output "eks_cluster_name" {
   value = module.eks.eks_cluster_name
 }
 
-output "ebs_csi_status" {
-  value = module.ebs-plugin.ebs_csi_status
+output "eks_kubeconfig" {
+  value = module.eks.eks_kubeconfig
 }

@@ -1,9 +1,9 @@
 variable "region" {
-  default = "us-west-1"
+  default = "us-west-2"
 }
 
 variable "vpc_name" {
-  default = "my-vpc"
+  default = "eks-ebs-vpc"
 }
 
 variable "availability_zones" {
@@ -11,5 +11,5 @@ variable "availability_zones" {
 }
 
 variable "cluster_name" {
-  default = "my-eks-cluster"
+  default = "eks-ebs-cluster"
 }
